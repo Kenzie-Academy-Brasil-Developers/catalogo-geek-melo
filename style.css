@@ -17,7 +17,7 @@ header {
 header img {
     display: flex;
     justify-content: left;
-    width: 300px;
+    width: 150px;
 }
 
 header nav {
@@ -38,7 +38,7 @@ header button {
 
 header button:hover {
     background-color: rgba(10, 153, 254, 0.9);
-    color: #FFFFFF;
+    color:blue;
 }
 
 
@@ -56,12 +56,9 @@ li {
     height: 275px;
     background-color: rgba(128, 128, 128, 0.157);
     margin: 10px;
-    border-radius: 10px;
+   border-radius: 3px;
 }
 
-li img {
-    border-radius: 10px;
-}
 
 #paintingsList {
     border-radius: 5px;
@@ -70,8 +67,8 @@ li img {
 }
 
 #paintingsList img {
-    width: 207px;
-    height: 170px;
+    width: 206px;
+    height: 140px;
 }
 
 #paintingsList h3 {
@@ -96,8 +93,8 @@ li img {
 }
 
 #actionFiguresList img {
-    width: 207px;
-    height: 170px;
+    width: 206px;
+    height: 140px;
 }
 
 #actionFiguresList h3 {
@@ -118,4 +115,5 @@ li img {
 .title {
     margin-left: 50px;
     font-size: 20px;
+    color: black;
 }

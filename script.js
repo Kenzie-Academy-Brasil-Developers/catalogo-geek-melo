@@ -100,7 +100,7 @@ function separateItems(produtos) {
 const productsType = separateItems(productsArray);
 
 
-function paintingsItems(paintingsArray) {
+function paintingsList(paintingsArray) {
   for (let i = 0; i < paintingsArray.length; i++) {
     const listItems = document.createElement('li')
     const list = document.getElementById('paintingsList')
@@ -122,10 +122,10 @@ function paintingsItems(paintingsArray) {
   }
 }
 
-paintingsItems(paintingsArray)
+paintingsList(paintingsArray)
 
 
-function actionFiguresItems(actionFiguresArray) {
+function actionFiguresList(actionFiguresArray) {
   for (let i = 0; i < actionFiguresArray.length; i++) {
     const listItems = document.createElement('li')
     const list = document.getElementById('actionFiguresList')
@@ -144,7 +144,7 @@ function actionFiguresItems(actionFiguresArray) {
     listItems.appendChild(itemPrice)
   }
 }
-actionFiguresItems(actionFiguresArray)
+actionFiguresList(actionFiguresArray)
 
 
 
